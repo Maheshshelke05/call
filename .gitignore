@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Local databases
+*.db
+*.db-journal
+
+# Env
+.env
+
+# Built APKs (publish via GitHub Releases instead)
+testing-apk/
+*.apk
+
+# Upstream clone, not part of this repo
+android-telephony/rivo-source/
+
+# Node
+node_modules/
+.next/
